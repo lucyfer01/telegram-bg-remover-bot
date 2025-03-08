@@ -1,0 +1,10 @@
+[project]
+name = "telegram-bg-remover-bot"
+version = "0.1.0"
+description = "A Telegram bot that removes image backgrounds using remove.bg API"
+requires-python = ">=3.11"
+dependencies = [
+    "python-telegram-bot==13.7",
+    "requests>=2.32.3",
+    "telegram>=0.0.1",
+]
